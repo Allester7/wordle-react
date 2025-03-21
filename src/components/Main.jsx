@@ -73,10 +73,10 @@ export default function Main(){
     )
     return(
         <>
-        {isGameWon && <Confetti
-      width={width}
-      height={height}
-    />}
+            {isGameWon && <Confetti
+            width={width}
+            height={height}
+            />}
             <section className={gameStatusclass}>
                 { isGameOver ?  (
                         isGameWon ?( 
