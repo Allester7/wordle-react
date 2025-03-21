@@ -3,6 +3,7 @@ import { getFarewell } from "../utils/getFarewell.js";
 import { words } from "../utils/words.js";
 import { clsx } from 'clsx';
 import { useState } from "react";
+import { useWindowSize } from 'react-use'
 import Confetti from 'react-confetti'
 export default function Main(){
     const [currentWord, setCurrentWord] = useState(words[Math.floor(Math.random() * 500)]);
@@ -13,7 +14,7 @@ export default function Main(){
     const isGameWon = currentWord.split("").every(letter => valueEntered.includes(letter))
     const isGameOver = isGameLost || isGameWon;
     const isFarewell = valueEntered.length !== 0 && !currentWord.includes(valueEntered[valueEntered.length - 1]) && !isGameOver;
-    // const { width, height } = useWindowSize()
+    const { width, height } = useWindowSize()
     const value = currentWord.split("").map((letter,index) =>{ 
         const revealletter = clsx(
             "letter",
