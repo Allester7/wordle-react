@@ -1,0 +1,22 @@
+export const words = [
+        "adventure", "belief", "courage", "dream", "eclipse", "freedom", "grace", "hope", "inspire", "journey",
+        "knowledge", "laughter", "momentum", "novelty", "optimism", "peace", "quest", "radiance", "strength", "tranquility",
+        "universe", "vibrant", "wisdom", "zeal", "brilliance", "compassion", "delight", "empower", "focus", "growth",
+        "harmony", "imagine", "joy", "kindness", "love", "mastery", "nurture", "open", "power", "quiet",
+        "recovery", "serenity", "truth", "uplift", "vision", "wholeness", "xenial", "yield", "zen",
+        "acceptance", "bravery", "clarity", "dreamer", "embrace", "flourish", "grateful", "hopeful", "ignite", "jubilant",
+        "kismet", "light", "magnitude", "nectar", "opportunity", "pursuit", "radiate", "soar", "thrive", "understanding",
+        "vivid", "wonder", "xenon", "yearn", "zest", "achieve", "bliss", "celebrate", "determination", "enlighten",
+        "faith", "generosity", "honesty", "imagination", "justice", "knack", "loveable", "meaning", "noble", "openness",
+        "persistence", "quester", "resilience", "spark", "tranquil", "unite", "vow", "worship", "x-factor",
+        "yielding", "zealous", "affection", "benevolence", "care", "devotion", "evolution", "forgiveness", "genuine", "hopeful",
+        "innovate", "journey", "kaleidoscope", "legacy", "momentous", "nebulous", "open-hearted", "proud", "questing", "resilient",
+        "strengthen", "tolerance", "unique", "vibrantly", "wishing", "xcellence", "yearning", "zealously", "adore", "blessed",
+        "calm", "dedication", "enlightenment", "fantastic", "growth", "honor", "impact", "journey", "keystone", "limitless",
+        "meaningful", "nourish", "opportunity", "positivity", "quench", "refresh", "strength", "transform", "unveil", "wonders",
+        "xenial", "young", "zany", "alert", "balance", "change", "dare", "engage", "fearless", "genuine", 
+        "hustle", "invite", "joyous", "keen", "live", "move", "new", "overcome", "praise", "quick",
+        "rise", "steady", "takeoff", "unfold", "venture", "will", "expand", "yeast", "zone", "accomplish", 
+        "belong", "create", "delight", "embrace", "form", "grow", "hopeful", "inspire", "jovial", "kickstart",
+        "luminous", "masterpiece", "nurture", "optimize", "prosper", "quicken", "resilience", "sparkle", "transform", "unveil"
+]
